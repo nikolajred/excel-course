@@ -1,0 +1,30 @@
+{
+  "name": "excel-course",
+  "version": "1.0.0",
+  "description": "Pure JavaScript",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikolajred/excel-course.git"
+  },
+  "keywords": [
+    "js",
+    "excel"
+  ],
+  "author": "Nikolaj Red <nikolajred@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikolajred/excel-course/issues"
+  },
+  "homepage": "https://github.com/nikolajred/excel-course#readme",
+  "private": true,
+  "devDependencies": {
+    "webpack": "^5.64.2",
+    "webpack-cli": "^4.9.1"
+  }
+}
